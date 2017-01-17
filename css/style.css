@@ -8,4 +8,15 @@ body {
 
 .container{
   margin-top: 15%;
+  color: #400e5d;
+  font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+}
+
+.btn{
+  background-color: #400e5d;
+  border-color: #400e5d;
+}
+
+.btn:hover{
+  background-color: #49247A;
 }
