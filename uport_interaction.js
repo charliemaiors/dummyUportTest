@@ -17,6 +17,8 @@ let internalState = {
 const uport_login = function () {
     web3.eth.getCoinbase((error, address) => {
         if (error) {
+            console.log("Error retrieving base address using web3, cause is %s", error)
+            alert("Something went terribly wrong")
             throw error
         }
         console.log("current address is " + address)
@@ -24,6 +26,10 @@ const uport_login = function () {
         uport.getUserPersona(address).then((persona) => {
             console.log("persona is  %s and profile name %s", persona, persona.profile.name)
             internalState.name = persona.profile.name
+        }).catch((error) => {
+            console.log("Error retrieving personal data on uPort, cause is %s", error)
+            alert("Something went terribly wrong")
+            throw error
         })
     })
 

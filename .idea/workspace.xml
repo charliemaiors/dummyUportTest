@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d598cd9-a526-4f4f-aff2-de147d03fdad" name="Default" comment="">
+    <list default="true" id="7d598cd9-a526-4f4f-aff2-de147d03fdad" name="Default" comment="added alert">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uport_interaction.js" afterPath="$PROJECT_DIR$/uport_interaction.js" />
     </list>
@@ -36,8 +36,8 @@
       <file leaf-file-name="uport_interaction.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uport_interaction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="627">
+              <caret line="19" column="86" lean-forward="false" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -261,7 +261,7 @@
       <workItem from="1484679825141" duration="1454000" />
       <workItem from="1484724502506" duration="1429000" />
       <workItem from="1484727035519" duration="7519000" />
-      <workItem from="1484734888356" duration="8978000" />
+      <workItem from="1484734888356" duration="11052000" />
     </task>
     <task id="LOCAL-00001" summary="dependency updae, added (ugly) table with persona attributes">
       <created>1484741715883</created>
@@ -270,11 +270,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484741715883</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed typo">
+      <created>1484746742351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484746742351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29731000" />
+    <option name="totallyTimeSpent" value="31805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -306,7 +313,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dependency updae, added (ugly) table with persona attributes" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency updae, added (ugly) table with persona attributes" />
+    <MESSAGE value="fixed typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed typo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -595,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uport_interaction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="627">
+          <caret line="19" column="86" lean-forward="false" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
           <folding />
         </state>
       </provider>
