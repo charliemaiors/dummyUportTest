@@ -15,7 +15,7 @@ let internalState = {
 
 
 const uport_login = function () {
-    web3.eth.getCoinbase((error, adrdess) => {
+    web3.eth.getCoinbase((error, address) => {
         if (error) {
             throw error
         }
