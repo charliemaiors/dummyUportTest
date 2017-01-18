@@ -5,6 +5,8 @@
     <link href="css/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <script src="uport_interaction.js"></script>
+    <script src="node_modules/uport-lib/dist/uportlib.min.js"></script>
+    <script type="text/javascript" src="node_modules/web3/dist/web3.js"></script>
     <title>Uport login</title>
 </head>
 <body>
@@ -15,7 +17,7 @@
                 <p class="text-center lead">
                     Please click to login
                 </p>
-                <button type="submit" class="btn btn-primary center-block" onclick="login()">Login</button>
+                <button id="loginButton" type="submit" class="btn btn-primary center-block" onclick="login()">Login</button>
             </div>
         </div>
     </div>
