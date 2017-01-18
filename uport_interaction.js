@@ -32,7 +32,7 @@ const uport_login = function () {
             throw error
         })
     })
-
+    return true
 }
 
 
