@@ -36,7 +36,7 @@
                 <p class="text-center lead">
                     Please click to login
                 </p>
-                <button id="loginButton" type="submit" class="btn btn-primary center-block" onclick="login()">Login
+                <button id="loginButton" type="submit" class="btn btn-primary center-block" onclick="uport_login()">Login
                 </button>
             </div>
         </div>
@@ -49,10 +49,6 @@
     const fillLoginData = function () {
         $("#uportId").innerHTML = internalState.addr
         $("#uportName").innerHTML = internalState.name
-    }
-
-    const login = function () {
-        uport_login()
         $('#loginDiv').style.display = 'none'
         $('#uportData').style.display = 'inline'
     }
