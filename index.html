@@ -52,11 +52,10 @@
     }
 
     const login = function () {
-        if (uport_login()) {
-            fillLoginData()
-            $('#loginDiv').style.display = 'none'
-            $('#uportData').style.display = 'inline'
-        }
+        uport_login()
+        $('#loginDiv').style.display = 'none'
+        $('#uportData').style.display = 'inline'
+    }
     }
 
 </script>
