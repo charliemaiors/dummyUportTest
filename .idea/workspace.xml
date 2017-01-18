@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7d598cd9-a526-4f4f-aff2-de147d03fdad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uport_interaction.js" afterPath="$PROJECT_DIR$/uport_interaction.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -275,7 +274,7 @@
       <workItem from="1484724502506" duration="1429000" />
       <workItem from="1484727035519" duration="7519000" />
       <workItem from="1484734888356" duration="12297000" />
-      <workItem from="1484752008518" duration="2037000" />
+      <workItem from="1484752008518" duration="2141000" />
     </task>
     <task id="LOCAL-00001" summary="dependency updae, added (ugly) table with persona attributes">
       <created>1484741715883</created>
@@ -312,11 +311,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484759003513</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added return">
+      <created>1484759350170</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1484759350170</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35087000" />
+    <option name="totallyTimeSpent" value="35191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
