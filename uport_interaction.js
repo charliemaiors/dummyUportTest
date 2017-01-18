@@ -6,15 +6,30 @@ const appName = 'TestSiteApp'
 const uport = new Uport(appName)
 const web3 = uport.getWeb3()
 
-/*let uport = new Uport('TestSiteApp');
-let web3 = uport.getWeb3()
-*/
-function login() {
-    uport.getUserPersona()
-        .then((persona) => {
-            let profile = persona.profile
-            console.log(profile)
-        })
+let internalState = {
+    addr : "",
+    name : "",
+    sendToId : "",
+    sendToval : ""
 }
+
+
+const uport_login = function () {
+    web3.eth.getCoinbase((error, adrdess) => {
+        if (error) {
+            throw error
+        }
+        console.log("current address is " + address)
+        internalState.addr = address
+        uport.getUserPersona(address).then((persona) => {
+            console.log("persona is  %s and profile name %s", persona, persona.profile.name)
+            internalState.name = persona.profile.name
+        })
+    })
+
+}
+
+
+
 
 
