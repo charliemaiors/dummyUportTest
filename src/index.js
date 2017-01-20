@@ -1,3 +1,4 @@
 import Uport from './uport'
 import { Registry, PublicPersona } from 'uport-persona'
-export { Uport, PublicPersona, Registry }
+import { IpfsAPI} from 'ipfs-api'
+export { Uport, PublicPersona, Registry, IpfsAPI }

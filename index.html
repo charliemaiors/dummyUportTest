@@ -19,12 +19,14 @@
                 <tr>
                     <th><p class="text-center lead">UPort ID</p></th>
                     <th><p class="text-center lead">Persona name</p></th>
+                    <th><p class="text-center lead">Persona Image</p></th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <th><p class="text-center lead" id="uportId">></p></th>
                     <th><p class="text-center lead" id="uportName"></p></th>
+                    <th><img class="img-rounded" id="uportImage"></th>
                 </tr>
                 </tbody>
             </table>
@@ -46,12 +48,14 @@
 
     const $ = (selector) => document.querySelector(selector)
 
-    const fillLoginData = function () {
+    function fillLoginData() {
         $("#uportId").innerHTML = internalState.addr
         $("#uportName").innerHTML = internalState.name
         $('#loginDiv').style.display = 'none'
         $('#uportData').style.display = 'inline'
     }
+
+
 
 </script>
 <script src="js/jquery-3.1.1.min.js"></script>

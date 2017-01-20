@@ -6,7 +6,8 @@
     "build-dist": "./node_modules/.bin/webpack --config webpack.config.js"
   },
   "dependencies": {
-    "uport-lib": "*"
+    "uport-lib": "*",
+    "ipfs-api" : "*"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",

@@ -9,6 +9,7 @@ const web3 = uport.getWeb3()
 let internalState = {
     addr : "",
     name : "",
+    ipfsPath: "",
     sendToId : "",
     sendToval : ""
 }
@@ -26,6 +27,7 @@ const uport_login = function () {
         uport.getUserPersona(address).then((persona) => {
             console.log("persona is  %s and profile name %s", persona, persona.profile.name)
             internalState.name = persona.profile.name
+            internalState.ipfsPath = persona.profile.image.contentUrl
             fillLoginData()
         }).catch((error) => {
             console.log("Error retrieving personal data on uPort, cause is %s", error)
